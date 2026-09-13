@@ -59,8 +59,9 @@ dotnet run --project src/ConsumoDeFila.Consumidor
 dotnet run --project src/ConsumoDeFila.Api
 ```
 
-Por padrão a API sobe em `http://localhost:5xxx` (a porta exata aparece no
-console ao iniciar).
+Por padrão a API sobe em `http://localhost:5220` e abre automaticamente o
+navegador na página do **Swagger UI** (`/swagger`), onde dá para testar os
+endpoints `POST /pedidos` e `GET /monitoramento/fila` diretamente.
 
 ### 4. Publicar um pedido na fila
 
