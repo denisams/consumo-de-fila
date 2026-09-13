@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/ConsumoDeFila.Api/ConsumoDeFila.Api.csproj" />
+    <Project Path="src/ConsumoDeFila.Compartilhado/ConsumoDeFila.Compartilhado.csproj" />
+    <Project Path="src/ConsumoDeFila.Consumidor/ConsumoDeFila.Consumidor.csproj" />
+  </Folder>
+</Solution>

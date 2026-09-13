@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-ConsumoDeFila.Consumidor-32aa6f21-ea84-4817-aa59-2664de2832fe</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Confluent.Kafka" Version="2.15.1" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="9.0.17" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ConsumoDeFila.Compartilhado\ConsumoDeFila.Compartilhado.csproj" />
+  </ItemGroup>
+</Project>
